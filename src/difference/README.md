@@ -1,7 +1,18 @@
 # Difference
 
-Write a function that removes specific values from an array. The values to
-remove are provided as a second array argument.
+```js
+function arrayDiff(arr = [], toRemove = []) {
+  const result = [];
+  for (let element of arr) {
+    if (!toRemove.includes(element) && !result.includes(element))
+      result.push(element);
+  }
+  return result;
+}
+
+console.log(arrayDiff([1,2,"t",2,3, 3],[3]));        // output: [1, 2, 't']
+
+```
 
 ---
 
@@ -18,9 +29,9 @@ helps you understand:
  *
  * **Note:** This function returns a new array, and has no side-effects.
  *
- * @param {Array} [array=[]] - The array to inspect.
- * @param {Array} [values=[]] - The values to exclude.
- * @returns {Array} Returns the new array of filtered values.
+ * @param {Array} [arr=[]] - The array to inspect.
+ * @param {Array} [toRemove=[]] - The values to exclude.
+ * @returns {Array} [result] - Returns the new array of filtered values.
  * @example
  *
  * difference([2, 1], [2, 3]); //  [1]
