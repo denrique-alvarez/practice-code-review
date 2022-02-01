@@ -31,10 +31,6 @@ array.
 **join() method**: At the end, in return, I used join method to combine
 non-repeated words as a string.
 
-```js
-
-```
-
 ---
 
 ## Use Cases
