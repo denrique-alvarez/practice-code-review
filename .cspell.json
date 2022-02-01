@@ -1,6 +1,8 @@
 {
   "language": "en",
-  "words": [],
+  "words": [
+    "Imahori's"
+  ],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
