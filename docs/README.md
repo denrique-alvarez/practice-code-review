@@ -19,7 +19,7 @@
 - intersection
 - sort-numbers
   - example-built-in-sort
-    - [sort-numbers.js](#srcsort-numbersexample-built-in-sortsort-numbersjs)
+    - [sort-numbers.js](#\src\sort-numbers\example-built-in-sort\sort-numbersjs)
 - split-object
 
 ---
@@ -46,7 +46,7 @@
 
 ## /example-built-in-sort
 
-<details><summary><a href="../../src/sort-numbers/example-built-in-sort/sort-numbers.js" id="srcsort-numbersexample-built-in-sortsort-numbersjs">../src/sort-numbers/example-built-in-sort/sort-numbers.js</a></summary>
+<details><summary><a href="../..\src\sort-numbers\example-built-in-sort\sort-numbers.js" id="\src\sort-numbers\example-built-in-sort\sort-numbersjs">..\src\sort-numbers\example-built-in-sort\sort-numbers.js</a></summary>
 
 <a name="sortNumbers"></a>
 
@@ -58,8 +58,7 @@ Returns a new array without modifying the original array.
 
 Does not need to support: NaN, Infinity, -Infinity.
 
-**Returns**: <code>Array.&lt;number&gt;</code> - A new array with the same
-numbers, but sorted.
+**Returns**: <code>Array.&lt;number&gt;</code> - A new array with the same numbers, but sorted.
 
 | Param          | Type                              | Default         | Description                   |
 | -------------- | --------------------------------- | --------------- | ----------------------------- |
