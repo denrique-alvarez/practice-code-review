@@ -1,3 +1,4 @@
+/* eslint-disable folders/match-regex */
 /**
  * Sorts an array of numbers from smallest to largest.
  *
