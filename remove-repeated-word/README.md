@@ -6,7 +6,8 @@
 
 1. Create a new array of words from a given string.
 2. Iterate through the array.
-3. Set a condition that checks if the previous element is equal to the current one.
+3. Set a condition that checks if the previous element is equal to the current
+   one.
 4. In case the condition is met, send the element to a new array.
 5. Turn the array into a string.
 6. Return the final string.
@@ -15,8 +16,8 @@
 
 ## Implementation
 
-**split() method**: Using split method, I created an array of words from
-given string.
+**split() method**: Using split method, I created an array of words from given
+string.
 
 **empty array**: I created an empty array to push filtered array elements later.
 
@@ -24,15 +25,11 @@ given string.
 
 **if statement**: if statement is used to find and eliminate repeated words.
 
-**push() method**: Push method is used to send non-repeated words to a new
-empty array.
+**push() method**: Push method is used to send non-repeated words to a new empty
+array.
 
 **join() method**: At the end, in return, I used join method to combine
 non-repeated words as a string.
-
-```js
-
-```
 
 ---
 
@@ -46,12 +43,12 @@ In collecting user data, inquiries, demands:
 ```js
 const userInput = prompt('Enter your question please?');
 const isAnyTypo = removeConsecutiveDuplicates(userInput);
-if(isAnyTypo!==userInput){
-    confirm(`Did you mean "${isAnyTypo}"`);
-}
-else{
-    const message = "Thanks! We received your message and we will get back to you as soon as possible.";
-    alert(message);
+if (isAnyTypo !== userInput) {
+  confirm(`Did you mean "${isAnyTypo}"`);
+} else {
+  const message =
+    'Thanks! We received your message and we will get back to you as soon as possible.';
+  alert(message);
 }
 ```
 
