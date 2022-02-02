@@ -1,19 +1,5 @@
 # Difference: Group-2 Strategy
 
-```js
-function arrayDiff(arr = [], toRemove = []) {
-  const result = [];
-  for (let element of arr) {
-    if (!toRemove.includes(element) && !result.includes(element))
-      result.push(element);
-  }
-  return result;
-}
-
-console.log(arrayDiff([1,2,"t",2,3, 3],[3]));        // output: [1, 2, 't']
-
-```
-
 ## Strategy
 
 1. A new empty array is created to push elements later which will meet conditions.
