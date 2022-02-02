@@ -1,3 +1,8 @@
+/* eslint-disable folders/match-regex */
+/* eslint-disable prettier/prettier */
+// eslint-disable-next-line spellcheck/spell-checker
+/* eslint-disable sonarjs/no-duplicate-string */
+
 import { sortNumbers } from './sort-numbers.js';
 
 describe('sortNumbers sorts an array of numbers', () => {
