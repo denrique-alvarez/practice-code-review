@@ -1,7 +1,8 @@
 {
   "language": "en",
   "words": [
-    "Imahori's"
+    "Imahori's",
+    "sonarjs"
   ],
   "ignorePaths": [
     "node_modules/**",
