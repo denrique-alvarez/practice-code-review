@@ -1,3 +1,4 @@
+/* eslint-disable folders/match-regex */
 import { sortNumbers } from './sort-numbers.js';
 
 /*
