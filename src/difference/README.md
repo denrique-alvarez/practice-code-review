@@ -10,8 +10,7 @@ function arrayDiff(arr = [], toRemove = []) {
   return result;
 }
 
-console.log(arrayDiff([1,2,"t",2,3, 3],[3]));        // output: [1, 2, 't']
-
+console.log(arrayDiff([1, 2, 't', 2, 3, 3], [3])); // output: [1, 2, 't']
 ```
 
 ---
