@@ -1,8 +1,14 @@
 {
   "language": "en",
   "words": [
+    "Atlassian",
+    "Coverate",
     "Imahori's",
-    "sonarjs"
+    "lcov",
+    "Pellegrini",
+    "sonarjs",
+    "stackoverflow",
+    "wireframe"
   ],
   "ignorePaths": [
     "node_modules/**",
