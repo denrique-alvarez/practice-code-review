@@ -17,6 +17,7 @@
 - deep-flat
 - difference
 - intersection
+  - [intersection.js](#\src\intersection\intersectionjs)
 - sort-numbers
   - example-built-in-sort
     - [sort-numbers.js](#\src\sort-numbers\example-built-in-sort\sort-numbersjs)
@@ -39,6 +40,39 @@
 ---
 
 # /intersection
+
+<details><summary><a href="../..\src\intersection\intersection.js" id="\src\intersection\intersectionjs">..\src\intersection\intersection.js</a></summary>
+
+<a name="intersection"></a>
+
+## intersection ⇒ <code>Array</code>
+
+Check the values of the second array and see if they are included in the first one.
+
+If they are, send them to a third array.
+
+Follow the order of the first array.
+
+Check if there are repeated elements in the array. If that's the case, eliminate the repeated elements.
+
+**Returns**: <code>Array</code> - [arr3 = []] - Returns a new array and without affecting the other two.
+
+Intersection([2, 1], [2, 3]);
+// -> [2]
+
+| Param  | Type               | Default         | Description                                                      |
+| ------ | ------------------ | --------------- | ---------------------------------------------------------------- |
+| [arr1] | <code>Array</code> | <code>[]</code> | The first array to check.                                        |
+| [arr2] | <code>Array</code> | <code>[]</code> | The values to compare and include if present in the first array. |
+
+**Example**
+
+```js
+intersection([2, 1, 2], [2, 3]);
+// -> [2]
+```
+
+</details>
 
 ---
 
