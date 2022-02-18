@@ -22,13 +22,14 @@
  */
 
 export const intersection = (arr1 = [], arr2 = []) => {
-  const arr3 = [];
-  for (const val2 of arr2) {
-    for (const val1 of arr1) {
-      if (val2 === val1) {
-        arr3.push(val2);
-      }
+    const arr3 = [];
+    for (const val2 of arr2) {
+        debugger;
+        for (const val1 of arr1) {
+            if (val2 === val1) {
+                arr3.push(val2);
+            }
+        }
     }
-  }
-  return arr3;
+    return arr3;
 };
